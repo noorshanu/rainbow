@@ -1,15 +1,21 @@
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <h1>
-        noor
-      </h1>
+      <Router>
+      <ScrollToTop/>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

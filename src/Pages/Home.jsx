@@ -4,6 +4,7 @@ import About from '../components/About'
 import OurDelights from '../components/OurDelights'
 import SocialMedias from '../components/SocialMedias'
 import Footer from '../components/Footer'
+import Counter from '../components/Counter'
 
 
 function Home() {
@@ -16,6 +17,10 @@ function Home() {
      </div>
      <div className='py-8'>
       <OurDelights/>
+     </div>
+     <div className=' py-8'>
+      <Counter/>
+
      </div>
      <div className=' py-8'>
       <SocialMedias/>

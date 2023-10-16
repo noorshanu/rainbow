@@ -59,12 +59,13 @@ body{
     line-height: 1.8;
   }
   .lh-1_9 {
-    line-height: 1.9;
+    line-height: 1.9; 
   }
 
   .bg-count{
     background-image: url('images/frame.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:#1545ED ;
+ 
+   
   }

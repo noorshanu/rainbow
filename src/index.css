@@ -69,3 +69,26 @@ body{
  
    
   }
+
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-button-prev,  .swiper-button-next{
+  background: #ED1556;
+  border-radius: 50px;
+  padding: 25px 25px;
+  font-size: 12px;
+  color: white;
+
+  
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+ 
+  font-size: 25px;
+}
+

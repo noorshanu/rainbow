@@ -5,13 +5,18 @@ import OurDelights from '../components/OurDelights'
 import SocialMedias from '../components/SocialMedias'
 import Footer from '../components/Footer'
 import Counter from '../components/Counter'
+import Hero from '../components/Hero'
 
 
 function Home() {
   return (
     <>
      <Navbar/>
-     <div className=' py-8'>
+     <div className=' '>
+      <Hero/> 
+
+     </div>
+     <div className=' pb-8'>
       <About/>
 
      </div>

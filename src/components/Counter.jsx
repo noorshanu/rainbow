@@ -4,7 +4,7 @@ function Counter() {
   return (
     <section>
       <div className="container-wrapper">
-        <div className="bg-count rounded-3xl py-8 px-12 ">
+        <div className="bg-count rounded-3xl py-16 px-12 ">
           <div className="flex justify-evenly">
             <div className=" text-center">
               <p className=" text-white fredok-font text-3xl font-semibold pb-3 uppercase">Since</p>
